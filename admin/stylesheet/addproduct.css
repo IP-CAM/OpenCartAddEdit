@@ -1,0 +1,66 @@
+.addprod input[type="text"], .addprod textarea, .addprod select{
+    width:450px;
+    border:1px solid #bbb;
+    padding:5px;
+    font-family:Georgia;
+    font-size:12px;
+}
+.addprod .section select, .addprod .sizes select{
+    width:462px
+}
+.addprod .sizes select{
+    height:170px;
+}
+.addprod select#section{
+    height:150px;
+}
+.addprod .file_box{
+    padding:15px 10px;
+    border:1px dashed #bbb;
+    width:440px;
+    text-align:center;
+    border-radius:4px;
+}
+.addprod .file_box.hover{
+    border: 1px solid #bbb;
+}
+.addprod label{
+    margin-bottom: 6px;
+    display: block;
+    font-family:Georgia;
+}
+.addprod .colors .color{
+    background:#efefef;
+    overflow:hidden;
+    width:463px;
+    border-bottom:1px dashed #bbb;
+}
+.addprod .colors .color:last-child{
+    margin-bottom:7px;
+    border-bottom:0px;
+}
+.addprod .colors .color .img{
+    float:left;
+    line-height:0px;
+}
+.addprod .colors .color .img img{
+    height:50px;
+}
+.addprod .colors .color .inp{
+    float:left;
+    width:140px;
+    padding-left:10px;
+}
+.addprod .colors .color .inp input{
+    width:120px;
+    padding:3px;
+    margin-top:14px;
+}
+.addprod .colors .color .btns{
+    float:right;
+    margin-right:10px;
+    margin-top:12px;
+}
+.red{
+    color:red;
+}
